@@ -1,0 +1,39 @@
+body {
+  background-color: lightcyan;
+}
+
+img {
+  max-width: auto;
+  height: 75%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+h1,
+h2,
+p,
+div {
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+}
+
+.container {
+  position: relative;
+}
+
+.vertical-center {
+  color: white;
+  margin: 20px;
+  position: absolute;
+  right: center;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
